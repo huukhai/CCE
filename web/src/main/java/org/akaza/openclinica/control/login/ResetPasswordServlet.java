@@ -161,6 +161,7 @@ public class ResetPasswordServlet extends SecureController {
                 addPageMessage(respage.getString("your_expired_password_reset_successfully"));
                 ub.incNumVisitsToMainMenu();
                 forwardPage(Page.MENU_SERVLET);
+                //Test
             }
         }
 
