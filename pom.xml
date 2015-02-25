@@ -548,6 +548,10 @@
 				<updatePolicy>never</updatePolicy>
 			</snapshots>
 		</repository>
+		<repository>
+	      <id>forplay-legacy</id>
+	      <url>http://forplay.googlecode.com/svn/mavenrepo</url>
+	    </repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
