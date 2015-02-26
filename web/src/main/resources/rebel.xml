@@ -8,6 +8,11 @@
 
 	<web>
 		<link target="/">
+			<dir name="D:/Projects/Gitlab/OpenClinica/web/target/m2e-wtp/web-resources">
+				<exclude name="/"/>
+			</dir>
+		</link>
+		<link target="/">
 			<dir name="D:/Projects/Gitlab/OpenClinica/web/src/main/webapp">
 			</dir>
 		</link>
