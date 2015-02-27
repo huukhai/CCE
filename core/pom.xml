@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>OpenClinica-core</artifactId>
     <packaging>jar</packaging>
-    <name>OpenClinica Core</name>
+    <name>CDISC CDASH EXCHANGE Core</name>
     <parent>
         <groupId>org.akaza.openclinica</groupId>
         <artifactId>OpenClinica</artifactId>

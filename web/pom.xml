@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>OpenClinica-web</artifactId>
 	<packaging>war</packaging>
-	<name>OpenClinica Web Application</name>
+	<name>CDISC CDASH EXCHANGE Web Application</name>
 	<parent>
 		<groupId>org.akaza.openclinica</groupId>
 		<artifactId>OpenClinica</artifactId>
@@ -14,11 +14,11 @@
 			<artifactId>OpenClinica-core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>OpenClinica-ws</artifactId>
 			<version>${project.version}</version>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>net.sf.saxon</groupId>
 			<artifactId>saxon</artifactId>

@@ -5,8 +5,7 @@
 	<artifactId>OpenClinica</artifactId>
 	<packaging>pom</packaging>
 	<version>3.4.1</version>
-	<name>OpenClinica</name>
-	<description>OpenClinica</description>
+	<name>CDISC CDASH EXCHANGE</name>
 
 	<modules>
 		<module>core</module>
@@ -590,4 +589,5 @@
 		</snapshotRepository>
 	</distributionManagement>
 
+	<description>CDISC CDASH EXCHANGE</description>
 </project>
