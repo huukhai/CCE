@@ -6,7 +6,9 @@
 		xsi:schemaLocation="http://www.springframework.org/schema/beans
 							http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 							http://www.springframework.org/schema/util 
-							http://www.springframework.org/schema/util/spring-util-3.0.xsd">
+							http://www.springframework.org/schema/util/spring-util-3.0.xsd
+							http://www.springframework.org/schema/security
+							http://www.springframework.org/schema/security/spring-security-3.0.xsd">
 
      
      <!-- WSDL Definitions -->
@@ -87,12 +89,14 @@
     <bean id="studySubjectEndpoint" class="org.akaza.openclinica.ws.StudySubjectEndpoint">
         <constructor-arg ref="subjectService"/>
         <constructor-arg ref="dataSource"/>
+        <constructor-arg ref="messages"/>
         <property name="dateFormat" value="yyyy-MM-dd"/>
     </bean>
     
     <bean id="eventEndpoint" class="org.akaza.openclinica.ws.EventEndpoint">
         <constructor-arg ref="eventService"/>
         <constructor-arg ref="dataSource"/>
+        <constructor-arg ref="messages"/>
         <property name="dateFormat" value="yyyy-MM-dd"/>
     </bean>
     
